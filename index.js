@@ -6,7 +6,7 @@ const app = express();
 
 const CLIENT_ID = '386846f7a7dc4ecbb543459b87e6da69'; // ← Lim inn fra Spotify Dashboard
 const CLIENT_SECRET = 'a4e7821378994c5c9dc8771b16a18023'; // ← Lim inn fra Spotify Dashboard
-const REDIRECT_URI = 'http://206.189.102.80:3000/callback'; // ← F.eks. https://din-replit-url/index.html
+const REDIRECT_URI = 'https://e670b19f-1c36-4e47-911a-7b13a9a613a3-00-ohhhz36pctbh.riker.replit.dev/callback'; // ← F.eks. https://din-replit-url/index.html
 
 app.use(cors());
 app.use(express.static('.'));
